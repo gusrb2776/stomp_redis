@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @AllArgsConstructor
 public class ChatMessage {
     public enum MessageType{
-        ENTER, TALK
+        ENTER, TALK, JOIN
     }
 
     private MessageType type;
