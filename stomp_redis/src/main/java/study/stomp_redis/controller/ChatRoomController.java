@@ -28,7 +28,7 @@ public class ChatRoomController {
     @GetMapping("/rooms")
     @ResponseBody
     public List<ChatRoom> room() {
-        return chatRoomRepository.findAllRoom();
+        return chatRoomRepository.findAllRooms();
     }
     // 채팅방 생성
     @PostMapping("/room")
